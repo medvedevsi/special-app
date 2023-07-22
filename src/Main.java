@@ -6,5 +6,7 @@ public class Main {
         System.out.println("Bookname: " + book.getAuthor() + " " + book.getName());
         Book book = new Book("Fifth Heart", "Dan Simmons", 500, "11GH89H");
         System.out.println("Bookname: " + book.getAuthor() + " " + book.getName());
+        Book book = new Book("Adventure's of Alice", "Kir Bulichev", 200, "1WE4566");
+        System.out.println("Bookname: " + book.getAuthor() + " " + book.getName());
     }
 }
