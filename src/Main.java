@@ -8,5 +8,7 @@ public class Main {
         System.out.println("Bookname: " + book.getAuthor() + " " + book.getName());
         Book book = new Book("Путешествие Алисы", "Кир Булычев", 211, "1WV4566");
         System.out.println("Bookname: " + book.getAuthor() + " " + book.getName());
+        Book book = new Book("Приключения Тома Сойера", "Марк Твен", 349, "FFG1234H");
+        System.out.println("Bookname: " + book.getAuthor() + " " + book.getName());
     }
 }
