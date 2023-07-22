@@ -19,4 +19,13 @@ public class Product {
     public int getPrice() {
         return price;
     }
+
+   public String getBarCode() {
+        return barCode;
+    }
+
+   public void setBarCode(String newBarCode) {
+        this.barCode = newBarCode;
+    }
+   
 }
