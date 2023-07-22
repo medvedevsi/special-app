@@ -10,5 +10,7 @@ public class Main {
         System.out.println("Bookname: " + book3.getAuthor() + " " + book3.getName());
         Book book4 = new Book("Приключения Тома Сойера", "Марк Твен", 349, "FFG1234H");
         System.out.println("Bookname: " + book4.getAuthor() + " " + book4.getName());
+        Book book5 = new Book("Доктор Живаго", "Пастернак", 456, "VVVT67");
+        System.out.println("Bookname: " + book5.getAuthor() + " " + book5.getName());
     }
 }
